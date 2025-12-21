@@ -86,7 +86,7 @@
       </div>
     </div>
   </div>
-  <div id="aprivacyModal" class="modal fade" tabindex="-1">
+  <div id="privacyModal" class="modal fade" tabindex="-1">
     <div class="modal-dialog modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
