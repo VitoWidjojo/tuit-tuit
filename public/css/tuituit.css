@@ -3,3 +3,11 @@
     font-family: "Tuit Tuit Regular";
     src: url(../typefaces/tuit-tuit-regular.otf.woff2);
 }
+
+tuittuit-title {
+    font-family: "Tuit Tuit Regular" !important;
+}
+
+tuittuit-bg {
+    background-color: rgb(124, 240, 139);
+}

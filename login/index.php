@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login | TuiTuit</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="public/css/tuituit.css">
+    <link rel="stylesheet" href="../public/css/tuituit.css">
     <!-- <link href="public/css/tailwind.css" rel="stylesheet"> -->
 </head>
 
-<body style="background-image: url('public/images/petra.jpg'); background-size: cover; background-position: center;">
+<body style="background-image: url('../public/images/petra.jpg'); background-size: cover; background-position: center;">
     <div class="flex justify-center min-h-screen p-4">
         <div class="flex-initial w-full max-w-3/5 flex justify-center items-center">
             <section>
@@ -25,7 +25,7 @@
                             Login failed: Invalid username or password
                         </div>
                     <?php endif; ?>
-                    <form action="actions/login_action.php" method="POST">
+                    <form action="../actions/login_action.php" method="POST">
                         <div class="m-2">
                             <label for="fusername">Username:</label>
                             <input type="text" id="fusername" name="username" class="ring-2 ring-black">
@@ -38,7 +38,7 @@
                             style="background-color: #B45309; color: #FFFFFF;">Login</button>
                     </form>
                     <h5>Don't have an account?</h5>
-                    <a href="register.php" class="text-blue-500 underline">Register</a>
+                    <a href="../register" class="text-blue-500 underline">Register</a>
                 </div>
             </section>
 
