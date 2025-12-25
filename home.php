@@ -83,7 +83,7 @@ $username = $_SESSION['user_id'];
                         <input type="text" id="searchBar" placeholder="Search..." style="margin: 5px;">
                     </div>
                     <div>
-                        <button onclick="" </div>
+                        <button onclick=""> </div>
                 </nav>
                 <div class="post-area" id="rightFeed" style="margin-top: 10px; flex: 1; overflow-y: auto; ">
                     <button onclick="loopMakePostSquares()">
